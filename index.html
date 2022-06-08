@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/btns/icon.PNG" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Stint+Ultra+Expanded&family=Vast+Shadow&display=swap"
+        rel="stylesheet">
+    <title>Play Music</title>
+</head>
+
+<body>
+    <main>
+
+        <!-- area de musica -->
+        <div id="areaPlay">
+            <div>
+                <h1 id="title">Play Music</h1>
+            </div>
+            <div id="midias">
+                <img id="img" src="" alt="">
+                <audio id="audio" src=""></audio>
+            </div>
+            <div id="names">
+                <h2 id="track-name">Track name</h2>
+                <h3 id="track-artist">Track artist</h3>
+            </div>
+            <div class="btns">
+                <img class="btn1" id="back" src="./assets/btns/volt.PNG" alt="back">
+                <img class="btn2" id="play" src="./assets/btns/play.PNG" alt="play">
+                <img class="btn1" id="foward" src="./assets/btns/avanc.PNG" alt="foward">
+            </div>
+            <div>
+                <div class="timer">
+                    <span id="current-time">0:00</span>
+                    <span id="total-duration">0:00</span>
+                </div>
+                <input id="progress" type="range" min="1" value="0" max="100">
+            </div>
+        </div>
+
+        <!-- texto da tela -->
+        <section>
+            <div id="text">
+                <h2>"De um play na vida, ouça uma musica!,</h2>
+                <h3>Dê um Play Music!"</h3>
+            </div>
+        </section>
+    </main>
+
+    <!-- rodape -->
+    <footer>
+        <p>Desenvolvido por
+            <a href="https://github.com/silasgoncalvesczs" target="_blank">Silas Gonçalves</a>.
+            <img src="./assets/btns/github.svg" alt="link-github">
+        </p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
